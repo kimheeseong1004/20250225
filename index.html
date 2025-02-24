@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>참소스_쇼핑몰</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.0.min.js"></script>
+    <script src="js/homebest.js"></script>
+    <script src="json/homebest.json"></script>
+    <script src="js/storebest.js"></script>
+    <script src="json/storebest.json"></script>
+    <script src="js/md's pick.js"></script>
+    <script src="json/md's pick.json"></script>
+</head>
+
+
+
+
+
+
+<body>
+
+
+
+
+    <div class="headertop">
+        <div class="bundle">
+
+            <a href="" class="login">로그인</a>
+            <p>&#124;</p>
+            <a href="" class="join">회원가입</a>
+            <p>&#124;</p>
+            <a href="" class="support">고객센터</a>
+
+        </div>
+    </div>
+
+
+    <header>
+        <div id="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+        <nav>
+
+            <div class="search">
+                <input type="text" class="search_bar" name="search" placeholder="검색어를 입력해주세요">
+                <button type="img" class="glass_button"><a href=""><img src="img/top_search.png"
+                            alt="glass_button"></a></button>
+            </div>
+            <div class="icon">
+                <a href=""><img src="img/btn_top_cart.png" alt="cart" class="cart_icon"></a>
+                <a href=""><img src="img/btn_top_order.png" alt="order" class="order_icon"></a>
+                <a href=""><img src="img/btn_top_myshop.png" alt="myshop" class="myshop_icon"></a>
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+    <div class="headerbottom">
+        <div class="category">
+            <img src="img/category_black.png" alt="category_icon" class="category_icon">
+            <div class="category_in">
+                <ul class="category_menus">
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">참소스</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class='category_menu_box'>와사비</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">하오츠소스</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">황금비율소스</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">허브솔트</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">스테이크</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">주방용품</div>
+                        </a>
+                    </li>
+                    <li class="category_menu">
+                        <a href="">
+                            <div class="category_menu_box">기타제품</div>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+        <ul class="menu">
+            <li><a href="">참소스</a>
+                <ul class="sub">
+                    <li><a href="#">와사비</a></li>
+                    <li><a href="#">하오츠소스</a></li>
+                    <li><a href="#">황금비율소스</a></li>
+                    <li><a href="#">허브솔트</a></li>
+                    <li><a href="#">스테이크</a></li>
+                    <li><a href="#">참CHAM</a></li>
+                    <li><a href="#">OEM주문</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">와사비</a>
+                <ul class="sub">
+                    <li><a href="#">고기엔와사비</a></li>
+                    <li><a href="#">참와사비</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">하오츠소스</a>
+                <ul class="sub">
+                    <li><a href="#">마라소스(20개입)</a></li>
+                    <li><a href="#">플러스마라소스</a></li>
+                    <li><a href="#">마라소스(1ea)</a></li>
+                </ul>
+
+            </li>
+            <li><a href="">황금비율소스</a>
+                <ul class="sub">
+                    <li><a href="#">불고기양념</a></li>
+                    <li><a href="#">제육볶음양념</a></li>
+                    <li><a href="#">갈비양념</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">허브솔트</a>
+                <ul class="sub">
+                    <li><a href="#">허브솔트플러스</a></li>
+                    <li><a href="#">솔트 3g</a></li>
+                    <li><a href="#">솔트(1,000ea)</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">스테이크</a>
+                <ul class="sub">
+                    <li><a href="#">스테이크소스</a></li>
+                    <li><a href="#">돈까스소스</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">참CHAM</a>
+                <ul class="sub">
+                    <li><a href="#">파채무침소스</a></li>
+                    <li><a href="#">머스타드소스</a></li>
+                    <li><a href="#">기타소스</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">OEM주문</a></li>
+        </ul>
+
+
+    </div>
+    <div id="slider">
+        <ul class="slidewrap">
+            <li><img src="img/market_slider_1.jpg" alt="slide image"></li>
+            <li><img src="img/market_slider_2.jpg" alt="slide image"></li>
+
+        </ul>
+        <span class="prev"><br><br><br><br><br><br><br><br>&lt;</span>
+        <span class="next"><br><br><br><br><br><br><br><br>&gt;</span>
+    </div>
+
+
+
+
+    <main>
+
+        <h3 id="title"></h3>
+
+        <section>
+
+            <article>
+                <div class="box"></div>
+
+                <div class="box"></div>
+
+                <div class="box"></div>
+
+            </article>
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <div><a href=""><img src="img/banner_1.jpg" alt="banner_1" class="banner_1"></a></div>
+
+
+        <h3 id="title_2"></h3>
+        <section>
+
+            <article>
+
+                <div class="box2"></div>
+                <div class="box2"></div>
+                <div class="box2"></div>
+            </article>
+
+
+
+
+        </section>
+
+
+        <div><a href=""><img src="img/banner_2.jpg" alt="banner_2" class="banner_2"></a></div>
+
+
+
+        <div><a href=""><img src="img/banner_3.jpg" alt="banner_3" class="banner_3"></a></div>
+
+
+
+    </main>
+
+
+
+    <h3 id="title_3"></h3>
+
+    <article>
+
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+    </article>
+
+
+
+
+
+    <script>
+
+        window.onload = function () {
+
+
+
+
+
+
+
+            // title
+            var title = document.getElementById("title")
+            title.innerHTML = "BEST PRODUCTS";
+
+
+
+
+            // sub title
+
+            var subtitle = document.createElement("p");
+            var textnode = document.createTextNode("가정용 제품 TOP3");
+            subtitle.appendChild(textnode);
+            title.appendChild(subtitle);
+
+
+
+            var title = document.getElementById("title_2")
+            title.innerHTML = "BEST PRODUCTS";
+
+
+
+
+            // sub title
+
+            var subtitle = document.createElement("p");
+            var textnode = document.createTextNode("업소용제품 TOP3");
+            subtitle.appendChild(textnode);
+            title.appendChild(subtitle);
+
+
+
+
+
+
+
+            var title = document.getElementById("title_3")
+            title.innerHTML = "MD'S PICK";
+
+
+
+
+            // sub title
+
+            var subtitle = document.createElement("p");
+            var textnode = document.createTextNode("맛있는 요리의 시작");
+            subtitle.appendChild(textnode);
+            title.appendChild(subtitle);
+
+
+
+
+
+
+
+
+
+
+        }
+    </script>
+
+
+    <footer>
+
+        <div id="footer_1">
+            <div id="footer_1_1">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+
+                    <li><a href="#">이용약관</a></li>
+
+                    <li><a href="#">개인정보처리방침</a></li>
+
+                    <li><a href="#">이용안내</a></li>
+
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="footer_2">
+            <div class="footer_2_1">
+                <div class="footer_2_2">
+                    <ul>
+                        <li><br></li>
+                        <img src="img/logo.png" alt="logo">
+                        <li><span class="footer_2_2_1">(주)우리식품 · 330-86-01108 · 허성용 · 22648 인천광역시 서구 소담1로 35
+                                (금곡동)</span></li>
+                        <li><span class="footer_2_2_2">통신판매업 신고 2021-인천서구-0633 |[사업자정보확인]</span></li>
+                        <li><span class="footer_2_2_3">개인정보보호책임자 : 허성용(help@chamsauce.co.kr)</span></li>
+                        <li><span class="footer_2_2_4">대표전화 : 070-7602-5514 · 팩스 : 032-563-5514 · E-mail :
+                                meeenzino@chamsauce.co.kr</span></li>
+                        <li><span class="footer_2_2_5">KG 에스크로 이니페이를 통해 고객님은 안전거래를 위해 현금 등으로 결제시<br>
+                                저희 쇼핑몰에서 가입한 구매안전 서비스를 이용하실 수 있습니다.[서비스 가입사실 확인]</span></li>
+                        <li><span class="footer_2_2_6">Copyright ©2021 WOORIFOOD CO.,LTD. All rights Reserved.</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer_3_1">
+                    <div class="footer_3_1_1">CS CENTER</div>
+                    <ul>
+                        <li><p class="footer_3_1_2">010-3923-5514</p></li>
+                        <li><p class="footer_3_1_3">070-7602-5514</p></li>
+                        <li><p class="footer_3_1_4">평일 : 10:00 ~ 17:00</p></li>
+                        <li><p class="footer_3_1_5">점심 : 12:30 ~ 13:30</p></li>
+                        <li><p class="footer_3_1_6">휴무 : 토,일,공휴일</p></li>
+                    </ul>
+                </div>
+
+                <div class="footer_4_1">
+                    <div class="footer_4_1_1">BANK INFO</div>
+                    <ul>
+                        <li><p class="footer_4_1_2">461-066660-01-018</p></li>
+                        <li><p class="footer_4_1_3">기업은행 예금주:(주)우리식품</p></li>
+                        <li><p class="footer_4_1_4">입금자명이 주문자명과 다를경우,<br>
+                            고객센터로 연락주시기 바랍니다.</p></li>
+                       
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/common.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

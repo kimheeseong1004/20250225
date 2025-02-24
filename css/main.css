@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#slider { width: 1800px; height: 420px; margin: 0 0 20px 0; position: absolute; top: 380px; left: 50%; transform: translate(-50%, -50%); z-index: 4; overflow: hidden;}
+
+#slider > span {
+    position: absolute; 
+    top: 50%; 
+    display: block; 
+    font-size: 90px; 
+    color: rgba(121, 152, 255, 0.3); 
+    line-height: 20px; 
+    background: rgba(245, 222, 179, 0.1); 
+    cursor: pointer; 
+    height: 420px; 
+    transform: translatey(-50%);
+}
+#slider > span:hover { background: rgba(121, 152, 255, 0.1); color: rgb(245, 222, 179);}
+.prev { left: 5%; border-radius: 10px; padding: 10px; font-weight: bold;}
+.next { right: 5%; border-radius: 10px; padding: 10px; font-weight: bold;}
+
+.slidewrap {width: 40000px;}
+.slidewrap > li {width: 1800px; height: 420px;}
+.slidewrap > li > img {width: 100%; height: 100%;}
+
+
+
+
+
+
+
+
+body {font-Family :Charcoal,sans-serif;}
+.box {width:270px; height:380px; border:1px solid #ddd; background-color:#fff; margin:20px 10px; display:inline-block; box-shadow:4px 4px 4px #ddd;border-radius: 30px;}
+.box > div {width:270px; height:279px; overflow:hidden; border-radius: 30px;}
+.box > div > a > img {width:265px; height:270px; border-radius: 30px; }
+.box > div > a > img:hover {opacity:0.5; }
+.box> h5 > a   {font-size: 12px;  height:20px; margin: 0px;  margin-top: 0px;  margin-right: 15px; margin-left: 15px; color:#000;  text-align:left; text-decoration:none; display:block; }
+.box>p>a {border-bottom: 1px solid #eee;  margin-right: 15px; margin-top: 0px;  margin-left: 15px;  font-size: 12px;  color:#666;  line-height:45px; text-align:left; text-decoration:none; display:block;}
+.box>span {font-size: 11px; margin-left:15px; margin-right: 15px;  float:left;}
+.box>button {font-size: 11px; border-radius:3px;  border:none;  background : #7998ff;  padding: 5px; color : #fff;  margin-right: 15px;  float:right;  cursor:pointer;}
+
+
+.box2 {width:270px; height:380px; border:1px solid #ddd; background-color:#fff; margin:20px 10px; display:inline-block; box-shadow:4px 4px 4px #ddd; border-radius: 30px;}
+.box2 > div {width:270px; height:279px; overflow:hidden; border-radius: 30px;}
+.box2 > div > a > img {width:265px; height:270px; border-radius: 30px;}
+.box2 > div > a > img:hover {opacity:0.5; }
+.box2 > h5 > a   {font-size: 12px;  height:20px; margin: 0px;  margin-top: 0px;  margin-right: 15px; margin-left: 15px; color:#000;  text-align:left; text-decoration:none; display:block; }
+.box2 > p >a {border-bottom: 1px solid #eee;  margin-right: 15px; margin-top: 0px;  margin-left: 15px;  font-size: 12px;  color:#666;  line-height:45px; text-align:left; text-decoration:none; display:block;}
+.box2 > span {font-size: 11px; margin-left:15px; margin-right: 15px;  float:left;}
+.box2 > button {font-size: 11px; border-radius:3px;  border:none;  background :#7998ff;  padding: 5px; color : #fff;  margin-right: 15px;  float:right;  cursor:pointer;}
+
+.box3 {width:270px; height:380px; border:1px solid #dddddd; margin:20px 10px; display:inline-block; box-shadow:4px 4px 4px #ddd; border-radius: 30px;}
+.box3 > div {width:270px; height:279px; overflow:hidden; border-radius: 30px;}
+.box3 > div > a > img {width:265px; height:270px; border-radius: 30px;}
+.box3 > div > a > img:hover {opacity:0.5;}
+.box3 > h5 > a   {font-size: 12px;  height:20px; margin: 0px;  margin-top: 0px;  margin-right: 15px; margin-left: 15px; color:#000;  text-align:left; text-decoration:none; display:block; }
+.box3 > p >a {border-bottom: 1px solid #eee;  margin-right: 15px; margin-top: 0px;  margin-left: 15px;  font-size: 12px;  color:#666;  line-height:45px; text-align:left; text-decoration:none; display:block;}
+.box3 > span {font-size: 11px; margin-left:15px; margin-right: 15px;  float:left;}
+.box3 > button {font-size: 11px; border-radius:3px;  border:none;  background : #7998ff;  padding: 5px; color : #fff;  margin-right: 15px;  float:right;  cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{width: 1280px; height:1300px; margin: 450px auto 0; }
+
+
+#title {color:#000; text-align:center; font-size:18px; margin: 0 0 0 0;}
+#title_2 {color:#000; text-align:center; font-size:18px; margin: 0 0 0 0;}
+#title_3 {color:#000; text-align:center; font-size:18px; margin: 0 0 0 0;}
+
+p {color:#000; font-size:30px; margin:0;  }
+article {width:1200px; height:430px; text-align:center; margin: 0 auto;}
+
+
+.banner_1{width: 100%; height:100%; margin:0 auto;}
+.banner_2{width: 100%; height:100%; margin:0 auto;}
+.banner_3{width: 100%; height:100%; margin:1000px auto 0;}
